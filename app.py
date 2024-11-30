@@ -5,6 +5,7 @@ from PIL import Image
 import io
 import torch.nn as nn
 from torchvision import models
+import os
 
 # Initialize the Flask app
 app = Flask(__name__)
